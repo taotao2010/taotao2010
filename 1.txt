@@ -1,11 +1,1 @@
-[ADT 3]
-! Checksum: vXO2skD37egAcrKzRVhe1A
-! Version: 20180501
-! Title: 过滤增强脚本1
-! Homepage: http://www.adtchrome.com/extension/adt-videolist.html
-! Match: http
-! Begin: --
-
-if(void 0!==localStorage["txp-user-setting"]){var s=JSON.parse(localStorage["txp-user-setting"]);s.isUseFlash="0",localStorage["txp-user-setting"]=JSON.stringify(s)}
-
-var _setTimeout=window.setTimeout;window.setTimeout=function(a,b){var str=a.toString();if(b===14000&&str.indexOf("callback&&")){return _setTimeout(a,0)}return _setTimeout(a,b)}
+W0FEVCAzXQ0KISBDaGVja3N1bTogdlhPMnNrRDM3ZWdBY3JLelJWaGUxQQ0KISBWZXJzaW9uOiAyMDE4MDUwMQ0KISBUaXRsZTog6L+H5ruk5aKe5by66ISa5pysMQ0KISBIb21lcGFnZTogaHR0cDovL3d3dy5hZHRjaHJvbWUuY29tL2V4dGVuc2lvbi9hZHQtdmlkZW9saXN0Lmh0bWwNCiEgTWF0Y2g6IGh0dHANCiEgQmVnaW46IC0tDQoNCmlmKHZvaWQgMCE9PWxvY2FsU3RvcmFnZVsidHhwLXVzZXItc2V0dGluZyJdKXt2YXIgcz1KU09OLnBhcnNlKGxvY2FsU3RvcmFnZVsidHhwLXVzZXItc2V0dGluZyJdKTtzLmlzVXNlRmxhc2g9IjAiLGxvY2FsU3RvcmFnZVsidHhwLXVzZXItc2V0dGluZyJdPUpTT04uc3RyaW5naWZ5KHMpfQ0KDQp2YXIgX3NldFRpbWVvdXQ9d2luZG93LnNldFRpbWVvdXQ7d2luZG93LnNldFRpbWVvdXQ9ZnVuY3Rpb24oYSxiKXt2YXIgc3RyPWEudG9TdHJpbmcoKTtpZihiPT09MTQwMDAmJnN0ci5pbmRleE9mKCJjYWxsYmFjayYmIikpe3JldHVybiBfc2V0VGltZW91dChhLDApfXJldHVybiBfc2V0VGltZW91dChhLGIpfQ0K
