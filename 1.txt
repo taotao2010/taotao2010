@@ -1,0 +1,11 @@
+[ADT 3]
+! Checksum: vXO2skD37egAcrKzRVhe1A
+! Version: 20180501
+! Title: 过滤增强脚本1
+! Homepage: http://www.adtchrome.com/extension/adt-videolist.html
+! Match: http
+! Begin: --
+
+if(void 0!==localStorage["txp-user-setting"]){var s=JSON.parse(localStorage["txp-user-setting"]);s.isUseFlash="0",localStorage["txp-user-setting"]=JSON.stringify(s)}
+
+var _setTimeout=window.setTimeout;window.setTimeout=function(a,b){var str=a.toString();if(b===14000&&str.indexOf("callback&&")){return _setTimeout(a,0)}return _setTimeout(a,b)}
